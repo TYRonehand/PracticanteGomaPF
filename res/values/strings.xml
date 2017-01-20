@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practicante Goma PF</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="password">pass</string>
+    <string name="ingresar">DEMASIA</string>
+    <string name="alias_washooo_">alias washooo!!</string>
+    <string name="title_activity_activity_personas">ActivityPersonas</string>
+    <string name="ingreso_personal">Ingreso Clientes</string>
+    <string name="title_activity_ingresar_pedido">IngresarPedidoActivity</string>
+    <string name="large_text">Large Text</string>
+    <string name="title_activity_menu">Menú</string>
+    <string name="todo">TODO</string>
+    <string name="agregar_cliente">Agregar Cliente</string>
+    <string name="title_activity_ingreso_producto">IngresoProducto</string>
+    <string name="title_activity_pedidoshoy">Pedidoshoy</string>
+    <string name="title_activity_pedidos">Pedidos</string>
+    <string name="agrega_pedido">Agrega Pedido</string>
+
+</resources>

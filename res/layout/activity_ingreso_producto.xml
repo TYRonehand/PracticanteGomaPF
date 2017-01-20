@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/FONDO1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.carlos.practicante_goma_pf.IngresoProducto" >
+
+    <EditText
+        android:id="@+id/et_prodname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Nombre Producto"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/negro" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_prodcash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_prodname"
+        android:layout_below="@+id/et_prodname"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Precio"
+        android:inputType="number"
+        android:textColorHint="@color/negro" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_addproducto"
+        android:layout_alignLeft="@+id/et_prodcash"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/et_prodcash"
+        android:src="@drawable/logopractica" />
+
+    <Button
+        android:id="@+id/btn_addproducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView1"
+        android:text="Agregar" />
+
+</RelativeLayout>
